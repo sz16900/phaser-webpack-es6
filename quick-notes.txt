@@ -1,0 +1,12 @@
+- use nvm to make sure you are using the right node version
+- some commands to consider:
+    + node -v
+    + cd -> to home
+    + la -> lists all files even the hidden
+    + nano .bashrc -> to write into the bash file
+    + source $HOME/.bashrc -> to refresh the terminal 
+    + nvm ls-remote -> lists ALL node version (so pick the current one)
+    + nvm install v12.18.3 -> (this was the version I ended up using)
+    + nvm use v12.18.3 -> (this was the version I ended up using)
+    + node -v -> to make sure I am using the right version
+

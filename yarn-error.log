@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/seth/.rbenv/shims:/home/seth/.rbenv/bin:/opt/firefox/firefox:/home/seth/.rbenv/shims:/home/seth/.rbenv/bin:/opt/firefox/firefox:/home/seth/.local/bin:/opt/firefox/firefox:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.3.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/seth/Desktop/phaser_test/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "phaser-dev-env",
+    "version": "1.0.0",
+    "description": "A simple phaser app",
+    "main": "index.js",
+    "author": "Seth Zea",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.10.5",
+      "@babel/preset-env": "^7.10.4",
+      "babel-core": "^6.26.3",
+      "babel-loader": "^8.1.0",
+      "webpack": "^4.43.0",
+      "webpack-cli": "^3.3.12",
+      "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+      "copy-webpack-plugin": "^6.0.3",
+      "phaser": "^3.24.1"
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

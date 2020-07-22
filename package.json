@@ -1,0 +1,21 @@
+{
+  "name": "phaser-dev-env",
+  "version": "1.0.0",
+  "description": "A simple phaser app",
+  "main": "index.js",
+  "author": "Cyrus Kiprop",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^6.0.3",
+    "phaser": "^3.24.1"
+  }
+}
