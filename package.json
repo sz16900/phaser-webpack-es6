@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple phaser app",
   "main": "index.js",
-  "author": "Cyrus Kiprop",
+  "author": "Seth Zea",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.10.5",
