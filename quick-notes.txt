@@ -9,4 +9,16 @@
     + nvm install v12.18.3 -> (this was the version I ended up using)
     + nvm use v12.18.3 -> (this was the version I ended up using)
     + node -v -> to make sure I am using the right version
+- it seems like webpack 4 deprecated new webpack.optimize.CommonChunkPlugin({})
+- instead i used:   optimization: {
+                                        splitChunks: {
+                                            cacheGroups: {
+                                                commons: {
+                                                name: 'production-dependencies',
+                                                chunks: 'initial',
+                                                minChunks: 2,
+                                                },
+                                            },
+                                        },
+                                    },
 
